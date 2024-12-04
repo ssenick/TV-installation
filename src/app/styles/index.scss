@@ -1,23 +1,17 @@
-@import "reset";
+@use "reset";
 
 h1 {
   font-size: 55px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 40px;
+  margin-bottom: 20px;
   color: red;
 }
 
 .app {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr;
-
-  &__header {
-    background-color: #9aee08;
-  }
-
   &__main {
     display: flex;
     justify-content: center;
